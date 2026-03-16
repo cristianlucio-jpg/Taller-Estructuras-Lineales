@@ -13,7 +13,7 @@ Taller-Estructuras-Lineales/
 │
 ├── src/
 │   ├── arreglos/
-│   │   ├── Ejercicio1.java
+│   │   ├── DiezPrimos.java
 │   │   ├── Ejercicio2.java
 │   │   ├── Ejercicio3.java
 │   │   ├── Ejercicio4.java
@@ -35,3 +35,12 @@ Taller-Estructuras-Lineales/
 │
 ├── README.md     
 └── .gitignore
+
+## Ejercicio 1: DiezPrimos
+- **Class:** `DiezPrimos.java` 
+- **Descripcion:**
+Este programa genera 10 numeros aleatorios entre 1 y 100, los almacena en un arreglo unidimensional y determina cuales de esos numeros son primos.
+-**¿Que hace?**
+1.Genera 10 numeros aleatorios
+2.Muestra todos los numeros generados
+3. Identifica y muestra los numeros primos
