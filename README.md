@@ -1,9 +1,10 @@
 # Taller de Estructuras Lineales - Arreglos, ArrayList y Matrices
 
 ## Datos del Estudiante
--**Nombre:** [CRISITIAN ALEXIS LUCIO NARVAEZ] 
--**Asignatura:** Programacion Orientada Objetos
--**Profesor:** [16/03/2026]
+-**Nombre:** [Cristian Alexis Lucio Narvaez] 
+-**Asignatura:** Estructuras de Datos Lineales
+-**Profesor:** Manuel Arturo Melo Legarda
+-**Fecha:** [16/03/2026]
 
 ## Descripción del Taller
 Este repositorio contiene las  soluciones por bloques  al Taller de arreglos unidimensional, bidimensional y ArrayList
