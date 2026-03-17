@@ -15,7 +15,7 @@ Taller-Estructuras-Lineales/
 │   ├── arreglos/
 │   │   ├── DiezPrimos.java
 │   │   ├── CienPrimerosPares.java
-│   │   ├── Ejercicio3.java
+│   │   ├── FactorialArreglo.java
 │   │   ├── Ejercicio4.java
 │   │   └── Ejercicio5.java
 │   │
@@ -41,9 +41,9 @@ Taller-Estructuras-Lineales/
 - **Descripcion:**
 Este programa genera 10 numeros aleatorios entre 1 y 100, los almacena en un arreglo unidimensional y determina cuales de esos numeros son primos.
 -**¿Que hace el programa?**
-1.Genera 10 numeros aleatorios
-2.Muestra todos los numeros generados
-3. Identifica y muestra los numeros primos
+1.Genera 10 numeros aleatorios.
+2.Muestra todos los numeros generados.
+3. Identifica y muestra los numeros primos.
 
 ### Ejercicio 2: CienPrimerosPares
 - **Clase:** `CienPrimerosPares.java`
@@ -53,5 +53,20 @@ Este programa genera 10 numeros aleatorios entre 1 y 100, los almacena en un arr
 ### **¿Que hace el programa?**
     1. Genera los primeros 100 numeros pares mediante una formula matematica.
     2. Almacena los numeros en un arreglo de 100 posiciones.
-    3.Muestra los numeros en una sola linea separados por comas
+    3.Muestra los numeros en una sola linea separados por comas.
     4.Muestra los numeros en 10 lineas (10 numeros por linea) indicando el numero de linea.
+
+### Ejercicio 3: FactorialArreglo
+
+- **Clase:** `FactorialArreglo.java`
+- **Descripcion del programa:**
+Este programa solicita al usuario la cantidad de numeros a generar, crea un arreglo con numeros aleatorios entre 0 y 20, calcula el factorial de cada uno y almacena los resultados en un segundo arreglo. Finalmente, muestra ambos arreglos en consola.
+
+### **¿Que hace el programa?**
+1. pregunta al usuario  cuantos numeros desea generar.
+2. Genera aleatoriamente esa cantidad de numeros de numeros entre 0 y 20.
+3. Calcula el factorial de cada numero generado.
+4. Almacena los factoriales en un arreglo separado.
+5. Muestra el arreglo de numeros originales.
+6. Muestra el arreglo de factoriales calculados.
+
