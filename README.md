@@ -16,11 +16,11 @@ Taller-Estructuras-Lineales/
 │   │   ├── DiezPrimos.java
 │   │   ├── CienPrimerosPares.java
 │   │   ├── FactorialArreglo.java
-│   │   ├── Ejercicio4.java
-│   │   └── Ejercicio5.java
+│   │   ├── MinMaxArreglo.java.java
+│   │   └── InvertirNumerosArreglo.java
 │   │
 │   ├── arraylist/
-│   │   ├── Ejercicio6.java
+│   │   ├── ArrayListNumeros.java
 │   │   ├── Ejercicio7.java
 │   │   ├── Ejercicio8.java
 │   │   ├── Ejercicio9.java
@@ -95,3 +95,16 @@ Genera 20 numeeros aleatorios entre 1 y 999, invierte el orden de cada numero y 
 4. Guarda los numeros invertidos en un segundo arreglo.
 5. Muestra ambos arreglos en consola.
 
+
+### Ejercicio 6: ArraylistNumeros
+- **Clase:** `ArrayListNumeros.java` (en paquete `arraylist`)
+- **Descripcion del programa:**
+Genera numeros aleatorios entre -10 y 10, los almacena en un arrayList hasta que hasta que aparece el numero 10 (que no se incluye). Luego muestra los numeros generados, su suma y su media aritmetica.
+
+### **¿Que hace el programa?**
+1. Genera numeros aleatorios entre -10 y 10.
+2. Almacena los números en un ArrayList hasta que aparece el numero 10.
+3. Excluye el numero 10 de la lista (solo es condicion de parada).
+4. Muestra todos los numero generados.
+5. Calcula y muestra la suma total.
+6. Calcula y muestra la media con 2 decimales.
