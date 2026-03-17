@@ -82,3 +82,16 @@ Este programa solicita al usuario la cantidad de numeros a generar, crea un arre
 4. Encuentra el numero mayor del arreglo 
 5. Muestra el arreglo completo en formato de cuadricula 5*5.
 6. Muestra los resultados (menor y mayor).
+
+### Ejercicio 5: InvertirNumerosArreglo
+- **Class:** `InvertirNumerosArreglo.java`
+- **Descripcion del programa:**
+Genera 20 numeeros aleatorios entre 1 y 999, invierte el orden de cada numero y guarda los resultados en un segundo arreglo. Muestra ambos arreglos.
+
+### **¿Que hace el programa?**
+1. Genera 20 numeros aleatorios entre 1 y 999.
+2. Almacena los numeros en un arreglo original.
+3. Invierte cada numero usando un algoritmo matematico.
+4. Guarda los numeros invertidos en un segundo arreglo.
+5. Muestra ambos arreglos en consola.
+
