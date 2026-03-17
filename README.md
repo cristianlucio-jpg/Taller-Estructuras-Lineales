@@ -108,3 +108,16 @@ Genera numeros aleatorios entre -10 y 10, los almacena en un arrayList hasta que
 4. Muestra todos los numero generados.
 5. Calcula y muestra la suma total.
 6. Calcula y muestra la media con 2 decimales.
+
+### Ejercicio 7: ArrayListPares
+- **Class:** `ArrayListPares.java` (en paquete `arraylist`)
+- **Descripcion del programa:**
+Inicializa un ArrayList con los primeros 20 numeros pares(2, 4, 6, ...,40) y permite insertar y eliminar numeros manteniendo el orden ascendente.
+
+### **¿Que hace el programa?**
+1. Inicializa un ArrayList con los primeros 20 numeros pares en orden ascendente.
+2. Muestra el ArrayList original.
+3. Solicita un numero al usuario y lo inserta en la posicion correcta(manteniendo el orden).
+4. Muestra el ArrayList despues de la insercion.
+5. Solicita un numero al usuario y lo elimina del ArrayList.
+6. Muestra el ArrayList despues de la eliminacion. 
