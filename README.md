@@ -120,4 +120,16 @@ Inicializa un ArrayList con los primeros 20 numeros pares(2, 4, 6, ...,40) y per
 3. Solicita un numero al usuario y lo inserta en la posicion correcta(manteniendo el orden).
 4. Muestra el ArrayList despues de la insercion.
 5. Solicita un numero al usuario y lo elimina del ArrayList.
-6. Muestra el ArrayList despues de la eliminacion. 
+6. Muestra el ArrayList despues de la eliminacion.
+
+### Ejercicio 8: FrecuenciaNumerosArrayList 
+- **Clase:** `FrecuenciaNumerosArrayList.java` (en paquete `arraylist`)
+- **Descripcion del programa:**
+Genera 100 numeros aleatorios entre 1 y 20, los almacena en un ArrayList, cuenta la frecuencia de cada numero,  muestra una tabla con las frecuencias e identifica el numero mas repetido.
+
+### **Que hace el programa?**
+1. Genera 100 numeros aleatorios entre 1 y 20.
+2. Almacena los numeros en un ArrayList.
+3. Cuenta cuantas veces aparece cada numero del 1 al 20.
+4. Muestra una tabla con cada numero y su frecuencia de aparicion.
+5. Identifica el numero que se repite con mayor frecuencia 
