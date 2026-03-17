@@ -21,10 +21,10 @@ Taller-Estructuras-Lineales/
 │   │
 │   ├── arraylist/
 │   │   ├── ArrayListNumeros.java
-│   │   ├── Ejercicio7.java
-│   │   ├── Ejercicio8.java
-│   │   ├── Ejercicio9.java
-│   │   └── Ejercicio10.java
+│   │   ├── ArrayListPares.java
+│   │   ├──FrecuenciaNumerosArrayList.java
+│   │   ├── OrdenarYSepararArrayList.java
+│   │   └── PartidosFutbol.java
 │   │
 │   └── matrices/
 │       ├── Ejercicio11.java
@@ -146,3 +146,15 @@ Genera 20 numeros aleatorios entre 1 y 100, los ordena de menor a mayor y de may
 4. Ordena la lista de mayor a menor y la muestra.
 5. Separa los numeros de dos listas: pares e impares.
 6. Muestra las listas de pares e impares.
+
+### Ejercicio 10: PartidosFutbol
+- **Clase:** `PartidosFutbol.java` (en paquete `arraylist`)
+- **Descripcion del programa:**
+Gestiona una lista de partidos de futbol y realiza operaciones estadisticas: mostrar partidos donde gano el visitante, contar victorias del Barcelona, eliminar partidos que no son empates y contar victorias del equipo local.
+
+### **¿Que hace el programa?**
+1. Muestra los partidos donde el equipo visitante fue el ganador.
+2. Cuenta cuantas veces gano el Barcelona.
+3. Elimina los partidos que no terminaron en empate.
+4. Cuenta cuantos partidos gano el equipo local.
+5. Muestra la lista despues de eliminar los no empates.
