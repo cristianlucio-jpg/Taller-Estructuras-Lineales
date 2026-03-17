@@ -132,4 +132,17 @@ Genera 100 numeros aleatorios entre 1 y 20, los almacena en un ArrayList, cuenta
 2. Almacena los numeros en un ArrayList.
 3. Cuenta cuantas veces aparece cada numero del 1 al 20.
 4. Muestra una tabla con cada numero y su frecuencia de aparicion.
-5. Identifica el numero que se repite con mayor frecuencia 
+5. Identifica el numero que se repite con mayor frecuencia .
+
+### Ejercicio 9: OrdenarYSepararArrayList
+- **Clase:** `OrdenarYSepararArrayList.java` (en paquete `arraylist`)
+- **Descripcion del programa:**
+Genera 20 numeros aleatorios entre 1 y 100, los ordena de menor a mayor y de mayor a menor, y los separa en listas de numeros pares e impares.
+
+### **¿Que hace el programa?**
+1. Genera 20 numeros aleatorios entre 1 y 100.
+2. Muestra la lista original sin ordenar.
+3. Ordena la lista de menor a mayor y la muestra.
+4. Ordena la lista de mayor a menor y la muestra.
+5. Separa los numeros de dos listas: pares e impares.
+6. Muestra las listas de pares e impares.
