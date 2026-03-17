@@ -70,3 +70,15 @@ Este programa solicita al usuario la cantidad de numeros a generar, crea un arre
 5. Muestra el arreglo de numeros originales.
 6. Muestra el arreglo de factoriales calculados.
 
+### Ejercicio 4: MinMaxArreglo
+- **Class:** `MinMaxArreglo.java`
+- **Descripcion del programa:**
+    Genera 25 numeros aleatorios entre -50 y 50, los almacena en un arreglo unidimensional, y encuentra el valor minimo y maximo del arreglo.
+
+### **¿Que hace el programa?**
+1. Genera 25 numeros aleatorios entre -50 y 50 (inclusion).
+2. Almacena los numeros en un arreglo de 25 posiciones.
+3. Encuentra el numero menor del arreglo.
+4. Encuentra el numero mayor del arreglo 
+5. Muestra el arreglo completo en formato de cuadricula 5*5.
+6. Muestra los resultados (menor y mayor).
