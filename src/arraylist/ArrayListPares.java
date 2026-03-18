@@ -27,7 +27,7 @@ import java.util.Scanner;
  * 
  * @author Cristian Lucio
  * @version 1.0
- * @since 2024
+ * @since 2026
  */
 public class ArrayListPares {
     

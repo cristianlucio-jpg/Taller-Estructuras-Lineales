@@ -9,24 +9,42 @@ import java.util.Scanner;
  * 
  * @author Cristian Lucio
  * @version 1.0
- * @since 2024
+ * @since 2026
  */
 public class MatrizSimetrica {
     
+    /** Matriz cuadrada de tamaño n x n */
     private int[][] matriz;
+    
+    /** Tamaño de la matriz (número de filas y columnas) */
     private int tamaño;
+    
+    /** Scanner para entrada de datos por teclado */
     private Scanner lector;
     
+    /**
+     * Constructor que inicializa el Scanner.
+     */
     public MatrizSimetrica() {
         this.lector = new Scanner(System.in);
     }
     
+    /**
+     * Solicita al usuario el tamaño de la matriz cuadrada.
+     * 
+     * <p>Pide el valor de n y crea una matriz de n x n.</p>
+     */
     public void solicitarTamaño() {
         System.out.print("Ingrese el tamaño de la matriz (n x n): ");
         tamaño = lector.nextInt();
         matriz = new int[tamaño][tamaño];
     }
     
+    /**
+     * Llena la matriz con números aleatorios entre 0 y 99.
+     * 
+     * <p>Utiliza la clase Random para generar números pseudoaleatorios.</p>
+     */
     public void llenarMatrizAleatoria() {
         Random generador = new Random();
         
@@ -37,6 +55,13 @@ public class MatrizSimetrica {
         }
     }
     
+    /**
+     * Verifica si la matriz es simétrica y muestra los números de las esquinas.
+     * 
+     * <p>Una matriz es simétrica si matriz[i][j] == matriz[j][i] para todos los elementos.
+     * Las esquinas de la matriz son: superior izquierda [0][0], superior derecha [0][n-1],
+     * inferior izquierda [n-1][0] e inferior derecha [n-1][n-1].</p>
+     */
     public void verificarSimetriaYMostrarEsquinas() {
         boolean simetrica = true;
         
@@ -63,12 +88,30 @@ public class MatrizSimetrica {
         System.out.println("Inferior derecha: " + matriz[tamaño - 1][tamaño - 1]);
     }
     
+    /**
+     * Cierra el Scanner para liberar recursos.
+     */
     public void cerrarScanner() {
         if (lector != null) {
             lector.close();
         }
     }
     
+    /**
+     * Método principal que ejecuta el programa.
+     * 
+     * <p>Flujo de ejecución:</p>
+     * <ol>
+     *   <li>Muestra el encabezado del programa</li>
+     *   <li>Solicita el tamaño de la matriz</li>
+     *   <li>Llena la matriz con números aleatorios</li>
+     *   <li>Verifica si es simétrica y muestra las esquinas</li>
+     *   <li>Cierra el Scanner</li>
+     *   <li>Muestra el pie del programa</li>
+     * </ol>
+     * 
+     * @param argumentos Argumentos de línea de comandos (no utilizados)
+     */
     public static void main(String[] argumentos) {
         System.out.println("==========================================");
         System.out.println("EJERCICIO 13: MATRIZ SIMÉTRICA");

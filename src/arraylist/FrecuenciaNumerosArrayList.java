@@ -11,15 +11,30 @@ import java.util.Random;
  */
 public class FrecuenciaNumerosArrayList {
     
+    /** Cantidad de números a generar */
     private static final int cantidadNumeros = 100;
+    
+    /** Límite inferior del rango de números aleatorios */
     private static final int limiteInferior = 1;
+    
+    /** Límite superior del rango de números aleatorios */
     private static final int limiteSuperior = 20;
     
+    /** ArrayList que almacena los números generados */
     private ArrayList<Integer> numeros;
+    
+    /** Arreglo que almacena la frecuencia de cada número (índice 0 = número 1) */
     private int[] frecuencias;
+    
+    /** Número que aparece con mayor frecuencia */
     private int numeroMasFrecuente;
+    
+    /** Cantidad de veces que aparece el número más frecuente */
     private int frecuenciaMaxima;
     
+    /**
+     * Constructor que inicializa el ArrayList y el arreglo de frecuencias.
+     */
     public FrecuenciaNumerosArrayList() {
         this.numeros = new ArrayList<>();
         this.frecuencias = new int[limiteSuperior];
@@ -27,6 +42,9 @@ public class FrecuenciaNumerosArrayList {
         this.frecuenciaMaxima = 0;
     }
     
+    /**
+     * Genera 100 números aleatorios entre 1 y 20 y los almacena en el ArrayList.
+     */
     public void generarNumerosAleatorios() {
         Random generador = new Random();
         
@@ -36,6 +54,12 @@ public class FrecuenciaNumerosArrayList {
         }
     }
     
+    /**
+     * Cuenta la frecuencia de cada número en el ArrayList.
+     * 
+     * <p>Recorre el ArrayList y por cada número incrementa la posición correspondiente
+     * en el arreglo de frecuencias (número 1 → posición 0, número 2 → posición 1, etc.).</p>
+     */
     public void contarFrecuencias() {
         for (int indice = 0; indice < limiteSuperior; indice++) {
             frecuencias[indice] = 0;
@@ -46,6 +70,12 @@ public class FrecuenciaNumerosArrayList {
         }
     }
     
+    /**
+     * Encuentra el número con mayor frecuencia en el ArrayList.
+     * 
+     * <p>Recorre el arreglo de frecuencias y encuentra el valor máximo,
+     * guardando también el número correspondiente.</p>
+     */
     public void encontrarNumeroMasFrecuente() {
         frecuenciaMaxima = 0;
         numeroMasFrecuente = 0;
@@ -58,6 +88,11 @@ public class FrecuenciaNumerosArrayList {
         }
     }
     
+    /**
+     * Muestra la tabla de frecuencias de cada número.
+     * 
+     * <p>Formato de tabla con número y cantidad de apariciones.</p>
+     */
     public void mostrarTablaFrecuencias() {
         System.out.println("\n=== TABLA DE FRECUENCIAS ===");
         System.out.println("Número | Frecuencia");
@@ -69,12 +104,20 @@ public class FrecuenciaNumerosArrayList {
         }
     }
     
+    /**
+     * Muestra el resultado del número más frecuente.
+     */
     public void mostrarResultado() {
         System.out.println("\n=== RESULTADO ===");
         System.out.println("Número más frecuente: " + numeroMasFrecuente);
         System.out.println("Frecuencia: " + frecuenciaMaxima + " veces");
     }
     
+    /**
+     * Método principal que ejecuta el programa.
+     * 
+     * @param argumentos Argumentos de línea de comandos (no utilizados)
+     */
     public static void main(String[] argumentos) {
         System.out.println("==========================================");
         System.out.println("EJERCICIO 8: FRECUENCIA DE NÚMEROS EN ARRAYLIST");
