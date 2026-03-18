@@ -196,3 +196,14 @@ Inicializa una matriz cuadrada de tamaño n x n (ingresado por el usuario), la l
 4. Determina si la matriz es simetrica.
 5. Muestra los numeros de las cuatro esquinas.
 
+### Ejercicio 14: MatrizTranspuesta
+- **Clase:** `MatrizTranspuesta` (en paquete `matrices`)
+- **Descripcion del programa:**
+Inicializa una matriz de 3x4 con valores preterminados (numeros del 1 al 12), calcula su transpuesta y muestra ambas matrices.
+
+### **¿Que hace el programa?**
+1. Inicializa una matriz de 3 filas x 4 columnas con valores predeterminados.
+2. Calcula la matriz transpuesta.
+3. Muestra la matriz original(3x4).
+4. Muestra la matriz transpuesta (4x3).
+
