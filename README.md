@@ -27,7 +27,7 @@ Taller-Estructuras-Lineales/
 │   │   └── PartidosFutbol.java
 │   │
 │   └── matrices/
-│       ├── Ejercicio11.java
+│       ├──BuscarEnMatriz.java
 │       ├── Ejercicio12.java
 │       ├── Ejercicio13.java
 │       ├── Ejercicio14.java
@@ -158,3 +158,16 @@ Gestiona una lista de partidos de futbol y realiza operaciones estadisticas: mos
 3. Elimina los partidos que no terminaron en empate.
 4. Cuenta cuantos partidos gano el equipo local.
 5. Muestra la lista despues de eliminar los no empates.
+
+### Ejercicio 11: BuscarEnMatriz
+- **Clase:** `BuscarEnMatriz.java` (en paquete `matrices`)
+- **Descripcion del programa:**
+Inicializa una matriz de 3x4 con numeros aleatorios entre 0 y 99, la muestra en pantalla, solicita un numero al usuario y busca su primera ocurrencia en la matriz.
+
+### **¿Que hace el programa?**
+1. Inicializa una matriz fija de 3 filas x 4 columnas
+2. Llena la matriz con numeros aleatorios entre 0 y 99.
+3. Muestra la matriz generada en formato de tabla.
+4. solicita al usuario un numero a buscar.
+5. Busca el numero en la matriz recorriendo fila por fila.
+6. Muestra la posicion de la primera ocurrencia o un mensaje si no existe.
