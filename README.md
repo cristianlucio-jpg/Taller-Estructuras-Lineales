@@ -28,7 +28,7 @@ Taller-Estructuras-Lineales/
 │   │
 │   └── matrices/
 │       ├──BuscarEnMatriz.java
-│       ├── Ejercicio12.java
+│       ├── DiagonalOpuesta.java
 │       ├── Ejercicio13.java
 │       ├── Ejercicio14.java
 │       └── Ejercicio15.java
@@ -171,3 +171,15 @@ Inicializa una matriz de 3x4 con numeros aleatorios entre 0 y 99, la muestra en 
 4. solicita al usuario un numero a buscar.
 5. Busca el numero en la matriz recorriendo fila por fila.
 6. Muestra la posicion de la primera ocurrencia o un mensaje si no existe.
+
+### Ejercicio 12: DiagonalOpuesta
+- **Clase:** `DiagonalOpuesta.java` (en paquete `matrices`)
+- **Descripcion del programa:**
+Inicializa una matriz cuadrada de tamaño n x n (ingresado por el usuario), la llena con numeros aleatorios entre -50 y 50, y calcula la suma de los elementos de la diagonal opuesta.
+
+### **¿Que hace el programa?**
+1. Solicita al usuario el tamaño de la matriz (n*n).
+2. Crea un matriz cuadrada con ese tamaño.
+3. Llena la matriz con numeros aleatorios entre -50 y 50.
+4. Calcula la suma de los elementos de la diagonal opuesta.
+5. Muestra el resultado de la suma
