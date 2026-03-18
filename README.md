@@ -207,3 +207,14 @@ Inicializa una matriz de 3x4 con valores preterminados (numeros del 1 al 12), ca
 3. Muestra la matriz original(3x4).
 4. Muestra la matriz transpuesta (4x3).
 
+### Ejercicio 15: IntercambiarFilas
+- **Clase:** `Intercambiar.java` (en paquete `matrices`)
+- **Descripcion del programa:**
+Solicita al usuario las dimensiones de una matriz, la llena con numeros aleatorios entre 0 y 99, intercambia la primera fila con la segunda y muestra la matriz resultante.
+
+### **¿Que hace el programa?**
+1.Solicita al usuario el numero de filas y columnas.
+2. Crea una matriz con esas dimensiones.
+3. Llena la matriz con numero aleatorios entre 0 y 99.
+4. Intercambia la primera fila (indice 0) con la segunda fila(indice 1).
+5. Muestra la matriz despues del intercambio.
