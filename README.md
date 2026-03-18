@@ -29,7 +29,7 @@ Taller-Estructuras-Lineales/
 │   └── matrices/
 │       ├──BuscarEnMatriz.java
 │       ├── DiagonalOpuesta.java
-│       ├── Ejercicio13.java
+│       ├── MatrizSimetrica.java
 │       ├── Ejercicio14.java
 │       └── Ejercicio15.java
 │
@@ -178,8 +178,21 @@ Inicializa una matriz de 3x4 con numeros aleatorios entre 0 y 99, la muestra en 
 Inicializa una matriz cuadrada de tamaño n x n (ingresado por el usuario), la llena con numeros aleatorios entre -50 y 50, y calcula la suma de los elementos de la diagonal opuesta.
 
 ### **¿Que hace el programa?**
-1. Solicita al usuario el tamaño de la matriz (n*n).
+1. Solicita al usuario el tamaño de la matriz (n x n).
 2. Crea un matriz cuadrada con ese tamaño.
 3. Llena la matriz con numeros aleatorios entre -50 y 50.
 4. Calcula la suma de los elementos de la diagonal opuesta.
-5. Muestra el resultado de la suma
+5. Muestra el resultado de la suma.
+
+### Ejercicio 13: MatrizSimetrica
+- **Clase:** `MatrizSimetrica.java` (en paquete `matrices`)
+- **Descripcion del programa:**
+Inicializa una matriz cuadrada de tamaño n x n (ingresado por el usuario), la llena con numeros aleatorios entre 0 y 99, determina si la matriz es simetrica y muestra los numeros ubicados en las cuatro esquinas.
+
+### **¿Que hace el programa?**
+1. Solicita al usuario el tamaño de la matriz (n x n).
+2. Crea una matriz cuadrada con ese tamaño.
+3. Llena la matriz con numeros aleatorios entre 0 y 99.
+4. Determina si la matriz es simetrica.
+5. Muestra los numeros de las cuatro esquinas.
+
